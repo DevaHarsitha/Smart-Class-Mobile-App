@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/attendanceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance Info"
+            android:background="@color/violet"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textStyle="italic|bold"
+            android:padding="8dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Date"
+            android:textStyle="italic"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/rollNoInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Roll Number"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/studentInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student Name"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/addStudentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Student"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/purple" />
+
+        <TableLayout
+            android:id="@+id/studentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2,3"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

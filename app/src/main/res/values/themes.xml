@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme in Light Mode -->
+    <style name="Base.Theme.Demo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Prevent force-dark mode for API 29+ -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <!-- Main app theme -->
+    <style name="Theme.Demo" parent="Base.Theme.Demo" />
+
+</resources>

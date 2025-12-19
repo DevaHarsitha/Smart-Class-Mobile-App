@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Smart Class</string>
+    <string name="welcome">Welcome!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="email">Email:</string>
+    <string name="nationality">Nationality</string>
+    <string name="update">UPDATE</string>
+    <string name="logout">LOGOUT</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="assignment">Assignment</string>
+    <string name="create">Subjects</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="choose_pdf">Choose PDF</string>
+    <string name="submit_assignment">Submit Assignment</string>
+    <string name="reg_no">Reg No</string>
+    <string name="tracks">TrackIn</string>
+    <string name="add_announcement">add announcement</string>
+
+
+</resources>

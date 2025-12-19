@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Heading"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/editBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Body"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:gravity="top"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
+

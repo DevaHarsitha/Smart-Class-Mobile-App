@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trackInRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/yearContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/trackTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Track Attendance"
+            android:layout_marginTop="0dp"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@color/violet"
+            android:textColor="@color/white"
+            />
+
+        <LinearLayout
+            android:id="@+id/year1Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@drawable/ibg"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:id="@+id/year1Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1st Year"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <LinearLayout
+                android:id="@+id/year1Sections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:padding="8dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn1A"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A"
+                    android:layout_margin="8dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn1B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="B"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/btn1C"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="C"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/year2Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@drawable/ibg"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:id="@+id/year2Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2nd Year"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <LinearLayout
+                android:id="@+id/year2Sections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:padding="8dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn2A"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/btn2B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="B"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/btn2C"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="C"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/year3Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@drawable/ibg"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:id="@+id/year3Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3rd Year"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <LinearLayout
+                android:id="@+id/year3Sections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:padding="8dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn3A"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A"
+                    android:layout_margin="8dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn3B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="B"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/btn3C"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="C"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/year4Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@drawable/ibg"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:id="@+id/year4Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4th Year"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <LinearLayout
+                android:id="@+id/year4Sections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:padding="8dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn4A"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/btn4B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="B"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/btn4C"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="C"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
